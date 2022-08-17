@@ -1,3 +1,69 @@
+h1.neon {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  color: #FFF;
+  font-weight: 100;
+  font-size: 90px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-shadow: 0 0 10px #ff006c, 0 0 20px #ff006c, 0 0 30px #ff006c, 0 0 40px #ff417d, 0 0 70px #ff417d, 0 0 80px #ff417d, 0 0 100px #ff417d, 0 0 150px #ff417d;
+}
+
+.intro-sub {
+  font-family: 'Montserrat', sans-serif !important;
+  margin-top: 0.3em !important;
+}
+
+
+.intro-content__text h3 {
+  color: #FFF;
+}
+.s-info .vert-line::before {
+  background-image: linear-gradient(to right, rgb(94, 66, 166), rgb(183, 78, 145));
+}
+.s-info h1::after {
+  background-image: linear-gradient(to right, rgb(94, 66, 166), rgb(183, 78, 145));
+}
+
+.modal svg {
+  fill: #000;
+}
+
+.services-list__item-content::before {
+  color: #000;
+}
+a {
+  color: #000;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #DC206A;
+}
+
+.contact-email {
+  color: #DC206A;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: inherit;
+}
+.contact-email:hover,
+.contact-email:focus {
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.contact-number a:hover,
+.contact-number a:focus {
+  color: #DC206A;
+}
+
+input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+  box-shadow: 0 0 5px rgba(183, 78, 145, 80%);
+  border: 1px solid #DC206A;
+}
+
 
 
 .faq-heading {
